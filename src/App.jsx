@@ -47,7 +47,7 @@ function AppRoutes() {
 export default function App() {
   return (
     <AppProvider>
-      <BrowserRouter>
+      <BrowserRouter basename="/Toefl/">
         <AppRoutes />
       </BrowserRouter>
     </AppProvider>

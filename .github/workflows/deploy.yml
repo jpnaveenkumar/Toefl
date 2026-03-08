@@ -5,6 +5,9 @@ on:
     branches:
       - claude/toefl-prep-app-rlvtl
 
+permissions:
+  contents: write
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
